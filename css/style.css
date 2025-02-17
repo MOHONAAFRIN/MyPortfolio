@@ -1543,14 +1543,23 @@ a:focus {
 
 .footer .footer-social a {
     display: inline-block;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s case;
+}
+.footer.footer-social a:hover{
+   color: #414141; !important;
+
 }
 
 .footer .footer-social a i {
     margin-right: 15px;
     font-size: 20px;
     color: #ffffff;
-    transition: .3s;
+
 }
+
 
 .footer .footer-social a:last-child i {
     margin: 0;
@@ -1559,6 +1568,7 @@ a:focus {
 .footer .footer-social a:hover i {
     color: #414141;
 }
+
 
 .footer .copyright {
     position: relative;
